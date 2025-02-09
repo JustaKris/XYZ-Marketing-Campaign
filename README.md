@@ -20,7 +20,10 @@
 
 ## Models
 
-All trained predictive models are saved in the `models/` directory for further analysis and potential deployment.
+All trained predictive models are saved in the `models/` directory for further analysis and potential deployment:
+- Random Forrest is trained to aggressivly target the positive class and is best suited for aiding an aggressive marketing approach;
+- Gradient Booster is the most accurate option but it struiggles with the positive class (recall especially);
+- LinearSVC sacrifices a bot of accuracy for a more balanced performace across both classes;
 
 ## Dependencies
 

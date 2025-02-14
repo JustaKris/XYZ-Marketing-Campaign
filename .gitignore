@@ -3,6 +3,9 @@
 commands.sh
 notebooks/cam.jpg
 
+# Models
+models/archive
+
 # Logs
 notebooks/Checkpoints
 notebooks/KerasTuner

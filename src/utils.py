@@ -2,7 +2,7 @@ import os
 import dill
 
 
-def save_dataframe(df, filename="file.csv", directory="../data", sep=",", index=False):
+def save_dataframe(df, filename="file.csv", directory="./data", sep=",", index=False):
     """
     Saves a Pandas dataframe to a CSV file.
 

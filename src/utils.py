@@ -35,7 +35,7 @@ def save_model(model, file_name):
     """
     Save .pkl file
     """
-    dir = '..\models'
+    dir = '../models'
     path = os.path.join(dir, file_name)
     os.makedirs(dir, exist_ok=True)
 
@@ -49,7 +49,7 @@ def load_model(file_name):
     """
     Load .pkl file
     """
-    dir = '..\models'
+    dir = '../models'
     path = os.path.join(dir, file_name)
     with open(path, 'rb') as file:
         model = dill.load(file)
